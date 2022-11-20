@@ -27,7 +27,6 @@ namespace Business.Concrete
             if (product.ProductName.Length<2)
             {
                 return new ErrorResult(Messages.ProductNameInvalid);
-
             }
             _productDal.Add(product);
 

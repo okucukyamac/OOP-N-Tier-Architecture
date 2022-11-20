@@ -27,6 +27,8 @@ namespace ConsoleUI
         {
             ProductManager productManager = new ProductManager(new EfProductDal());
 
+            
+
             var result = productManager.GetProductDetails();
 
             if (result.Success)
